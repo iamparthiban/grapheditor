@@ -1,0 +1,127 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "mxgraph@^3.7.5",
+        "scope": null,
+        "escapedName": "mxgraph",
+        "name": "mxgraph",
+        "rawSpec": "^3.7.5",
+        "spec": ">=3.7.5 <4.0.0",
+        "type": "range"
+      },
+      "/Users/nic/source/cartographer-web"
+    ],
+    [
+      {
+        "raw": "git+https://github.com/NicCOConnor/mxgraph.git",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "git+https://github.com/NicCOConnor/mxgraph.git",
+        "spec": "git+https://github.com/NicCOConnor/mxgraph.git",
+        "type": "hosted",
+        "hosted": {
+          "type": "github",
+          "ssh": "git@github.com:NicCOConnor/mxgraph.git",
+          "sshUrl": "git+ssh://git@github.com/NicCOConnor/mxgraph.git",
+          "httpsUrl": "git+https://github.com/NicCOConnor/mxgraph.git",
+          "gitUrl": "git://github.com/NicCOConnor/mxgraph.git",
+          "shortcut": "github:NicCOConnor/mxgraph",
+          "directUrl": "https://raw.githubusercontent.com/NicCOConnor/mxgraph/master/package.json"
+        }
+      },
+      "/home/akbar/development/drl_sop"
+    ]
+  ],
+  "_from": "git+https://github.com/NicCOConnor/mxgraph.git",
+  "_id": "mxgraph@3.7.5",
+  "_inCache": true,
+  "_location": "/mxgraph",
+  "_nodeVersion": "4.7.2",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/mxgraph-3.7.4.tgz_1498590682767_0.9278142049442977"
+  },
+  "_npmUser": {
+    "name": "drawio",
+    "email": "npm@jgraph.com"
+  },
+  "_npmVersion": "3.5.2",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "git+https://github.com/NicCOConnor/mxgraph.git",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "git+https://github.com/NicCOConnor/mxgraph.git",
+    "spec": "git+https://github.com/NicCOConnor/mxgraph.git",
+    "type": "hosted",
+    "hosted": {
+      "type": "github",
+      "ssh": "git@github.com:NicCOConnor/mxgraph.git",
+      "sshUrl": "git+ssh://git@github.com/NicCOConnor/mxgraph.git",
+      "httpsUrl": "git+https://github.com/NicCOConnor/mxgraph.git",
+      "gitUrl": "git://github.com/NicCOConnor/mxgraph.git",
+      "shortcut": "github:NicCOConnor/mxgraph",
+      "directUrl": "https://raw.githubusercontent.com/NicCOConnor/mxgraph/master/package.json"
+    }
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git+https://github.com/NicCOConnor/mxgraph.git#ae4f5d1261a661cb9db44304bedd5ac5df015007",
+  "_shasum": "1729c94fb410210ec3aded59c98095e089acf108",
+  "_shrinkwrap": null,
+  "_spec": "git+https://github.com/NicCOConnor/mxgraph.git",
+  "_where": "/home/akbar/development/drl_sop",
+  "author": {
+    "name": "JGraph Ltd",
+    "email": "support@jgraph.com"
+  },
+  "bugs": {
+    "url": "https://github.com/jgraph/mxgraph/issues"
+  },
+  "dependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-webpack": "^2.0.1",
+    "load-grunt-parent-tasks": "^0.1.1",
+    "load-grunt-tasks": "^3.5.2",
+    "webpack": "^2.2.1"
+  },
+  "description": "mxGraph is a fully client side JavaScript diagramming library that uses SVG and HTML for rendering.",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "1066f63fa63a8647dcdb0f1d8ccdbc191e6ed452",
+    "tarball": "https://registry.npmjs.org/mxgraph/-/mxgraph-3.7.4.tgz"
+  },
+  "gitHead": "ae4f5d1261a661cb9db44304bedd5ac5df015007",
+  "homepage": "https://github.com/jgraph/mxgraph",
+  "license": "Apache-2.0",
+  "main": "./javascript/dist/build.js",
+  "maintainers": [
+    {
+      "name": "drawio",
+      "email": "npm@jgraph.com"
+    },
+    {
+      "name": "brendonboshell",
+      "email": "brendonboshell@gmail.com"
+    }
+  ],
+  "name": "mxgraph",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jgraph/mxgraph.git"
+  },
+  "scripts": {
+    "postinstall": "grunt build --base \"$(npm prefix)\" --gruntfile etc/build/Gruntfile.js"
+  },
+  "version": "3.7.5"
+}
